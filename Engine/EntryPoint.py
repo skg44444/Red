@@ -5,10 +5,10 @@ def main():
     EngineLog = Log.logger("Engine")
 
     app = Application.Application()
-
-    EngineLog.info("Created Application")
     app.run()
     del app
+
+    EngineLog.info("Exiting Main function")
 
 if __name__ == "__main__":
     main()
